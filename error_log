@@ -1,0 +1,6 @@
+[09-Dec-2021 22:35:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_magic_quotes_gpc() in /home/qxzh6303/public_html/config/defines.inc.php:143
+Stack trace:
+#0 /home/qxzh6303/public_html/config/config.inc.php(33): require_once()
+#1 /home/qxzh6303/public_html/index.php(27): require('/home/qxzh6303/...')
+#2 {main}
+  thrown in /home/qxzh6303/public_html/config/defines.inc.php on line 143
